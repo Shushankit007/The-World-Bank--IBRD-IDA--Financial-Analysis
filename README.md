@@ -48,7 +48,7 @@ The World Bank IBRD Loans Analysis project aims to provide a comprehensive overv
 - **Interest Rate Analysis:** Line chart depicting the average interest rates over time.
 
 ## Visualizations
-![Summary Dashboard Screenshot]([Summary Dashboard.png](https://github.com/Shushankit007/World-Bank-IBRD-Loan-Analysis-using-Excel/blob/main/Overview%20Dashboard.png)
+![Summary Dashboard Screenshot](https://github.com/Shushankit007/World-Bank-IBRD-Loan-Analysis-using-Excel/blob/main/Overview%20Dashboard.png)
 ![Overview Dashboard Screenshot](https://github.com/Shushankit007/World-Bank-IBRD-Loan-Analysis-using-Excel/blob/main/Overview%20Dashboard.png)
 
 
