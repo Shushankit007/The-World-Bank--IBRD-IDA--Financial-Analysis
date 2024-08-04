@@ -51,7 +51,12 @@ The World Bank IBRD Loans Analysis project aims to provide a comprehensive overv
 1. Open the `World_Bank_IBRD_Loans_Analysis.xlsx` file in Microsoft Excel.
 2. Navigate through the various sheets to explore the data cleaning, analysis, and visualizations.
 3. Interact with the pivot tables and charts to gain insights from the data.
+4. For more details about dataset refer this file `Data_Dictionary IBRD and IDA Dataset Details.pdf`
 
+## Reference
+- https://data.worldbank.org/
+- https://finances.worldbank.org/ (open finance data of world bank)
+  
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
