@@ -48,7 +48,7 @@ The World Bank IBRD Loans Analysis project aims to provide a comprehensive overv
 - **Interest Rate Analysis:** Line chart depicting the average interest rates over time.
 
 ## Visualizations
-![Dashboard Screenshot](images/dashboard_screenshot.png)
+![Summary Dashboard Screenshot](Summary Dashboard.png)
 
 
 ## Usage
