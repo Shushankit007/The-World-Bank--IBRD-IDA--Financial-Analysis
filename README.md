@@ -47,6 +47,10 @@ The World Bank IBRD Loans Analysis project aims to provide a comprehensive overv
 - **Loan Distribution by Sector:** Pie chart indicating the loan allocation by sector.
 - **Interest Rate Analysis:** Line chart depicting the average interest rates over time.
 
+## Visualizations
+![Dashboard Screenshot](images/dashboard_screenshot.png)
+
+
 ## Usage
 1. Open the `World_Bank_IBRD_Loans_Analysis.xlsx` file in Microsoft Excel.
 2. Navigate through the various sheets to explore the data cleaning, analysis, and visualizations.
