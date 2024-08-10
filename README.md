@@ -1,51 +1,89 @@
-# World Bank IBRD Loans Analysis
+# **The World Bank(IBRD-IDA) Financial Analysis**
 
-## Project Overview
-The World Bank IBRD Loans Analysis project aims to provide a comprehensive overview of the loans extended by the International Bank for Reconstruction and Development (IBRD). The project leverages Excel for data cleaning, validation, analysis, and visualization. The primary focus is on understanding the distribution, repayment performance, interest rates, and other key metrics associated with the IBRD loans. By analyzing this data, the project seeks to uncover patterns and insights that can inform better decision-making and policy formulation.
+## **Project Overview**
+The World Bank IBRD and IDA financial Analysis project aims to provide a comprehensive overview of the loans extended by the International Bank for Reconstruction and Development (IBRD) and the International Development Association (IDA). Leveraging Excel for data cleaning, validation, analysis, and visualization, this project focuses on understanding key metrics such as loan distribution, repayment performance, interest rates, and credit risk exposure. The analysis of this data seeks to uncover patterns and insights that can inform better decision-making and policy formulation at a global level.
 
-### Objectives:
-- **Data Cleaning and Validation:** Ensure the dataset is accurate, complete, and formatted correctly for analysis.
-- **Key Performance Indicators (KPIs):** Identify and calculate essential KPIs related to loan amounts, disbursements, repayments, and interest rates.
-- **Regional and Sectoral Analysis:** Examine the distribution of loans across different regions and sectors to identify trends and key areas of focus.
-- **Loan Type and Status Analysis:** Analyze the different types of loans and their current status to understand the portfolio composition and performance.
-- **Visualizations:** Create clear and informative visualizations to present the findings effectively.
+## **Objectives:**
 
-## Methodology
+### IBRD Loans Analysis
+1. **Data Cleaning and Validation**: Ensure the IBRD dataset is accurate, complete, and formatted correctly for analysis.
+2. **Key Performance Indicators (KPIs)**: Identify and calculate essential KPIs related to loan amounts, disbursements, repayments, and interest rates.
+3. **Regional and Sectoral Analysis**: Examine the distribution of loans across different regions and sectors to identify trends and key areas of focus.
+4. **Loan Type and Status Analysis**: Analyze different types of loans and their current status to understand the portfolio composition and performance.
+5. **Visualizations**: Create clear and informative visualizations to present the findings effectively.
 
-### Data Cleaning and Validation
-1. **End of Period:** Cleaned using text to column function and changed its data type.
-2. **Borrower:** Filled missing values with "unavailable data".
-3. **Guarantor Country Code:** Filled missing values using the formula `=IF(ISBLANK(H2), D2, H2)`.
-4. **Guarantor Country:** Filled missing values using the formula `=IF(ISBLANK(I2), E2, I2)`.
-5. **Interest Rate:** Replaced null values with 0 and added a % suffix using custom format.
-6. **Currency of Commitment:** Assumed USD and filled missing values.
-7. **Amount Columns:** Converted to number data type.
-8. **Date Columns:** Formatted to dd-mm-yyyy.
-9. **Original Principal Amount:** Filled missing values using the formula `=IF(O5=0, IF(AND(R5=0, S5=0, Q5=0), O5, IF(AND(R5=0, S5=0), Q5, R5 + S5)), O5)`.
-10. **Net Loan Amount:** Created a new column by subtracting "Cancelled Amount" from "Original Principal Amount".
-11. **Sector Column:** Created using relevant keywords in the project name.
+### IDA Credit and Grants Analysis
+1. **Credit Risk Analysis**: Assess credit risk exposure across different borrowers and regions.
+2. **Time Series Analysis**: Analyze the time series of credit amounts and repayment patterns.
+3. **Principal Amount by Borrowers**: Identify the top borrowers and their associated principal amounts.
+4. **Global Distribution**: Map the global distribution of amounts due and other relevant metrics.
+5. **Credit Portfolio Analysis**: Evaluate the credit utilization ratio, repayment efficiency, and other critical metrics.
 
-## Key Insights
 
-### Performance Indicators
-- **Total Principal Amount:** Comprehensive view of the original loan amounts.
-- **Total Disbursed Amount:** Amounts actually disbursed to borrowers.
-- **Total Undisbursed Amount:** Funds yet to be disbursed.
-- **Total Repaid Amount:** Amounts repaid by borrowers to date.
-- **Total Amount Due:** Outstanding amounts yet to be repaid.
-- **Average Interest Rate:** Insights into the cost of borrowing.
-- **Number of Active Loans:** Loans currently active and not fully repaid.
-- **Regional Distribution of Loans:** Breakdown of loans across different geographical regions.
-- **Top Borrowing Countries:** Countries with the highest loan amounts.
-- **Loan Distribution by Sector:** Allocation of loans across various sectors.
-- **Loan Type and Loan Status Analysis:** Analysis of loan types and their current status.
+## **Methodology**
 
-### Visual Insights
-- **Total Principal Amount vs. Disbursed Amount:** Bar chart comparing the original loan amounts with the disbursed amounts.
-- **Regional Distribution of Loans:** Pie chart showing the distribution of loans across different regions.
-- **Top Borrowing Countries:** Bar chart highlighting the countries with the highest loan amounts.
-- **Loan Distribution by Sector:** Pie chart indicating the loan allocation by sector.
-- **Interest Rate Analysis:** Line chart depicting the average interest rates over time.
+### IBRD Data Cleaning and Validation
+- **End of Period**: Cleaned using text-to-column function and changed its data type.
+- **Borrower**: Filled missing values with "unavailable data."
+- **Guarantor Country Code and Country**: Used formulas to fill in missing values.
+- **Interest Rate**: Replaced null values with 0 and added a % suffix using custom format.
+- **Currency of Commitment**: Assumed USD and filled missing values.
+- **Amount Columns**: Converted to number data type.
+- **Date Columns**: Formatted to dd-mm-yyyy.
+- **Original Principal Amount**: Filled missing values using a custom formula.
+- **Net Loan Amount**: Created by subtracting the "Cancelled Amount" from the "Original Principal Amount."
+- **Sector Column**: Created using relevant keywords in the project name.
+
+### IDA Credit and Grants Data Cleaning and Validation
+- **Language Translation**: Translated columns with different languages into English.
+- **Date Column Cleaning**: Standardized the format across all date columns.
+- **Currency Conversion**: Standardized all amounts to a single currency where applicable.
+- **Amount Columns**: Filled missing values and converted them to the appropriate data type.
+
+
+## **Key Insights**
+
+### IBRD Loans
+1. **Performance Indicators**
+   - Total Principal Amount: Comprehensive view of the original loan amounts.
+   - Total Disbursed Amount: Amounts actually disbursed to borrowers.
+   - Total Undisbursed Amount: Funds yet to be disbursed.
+   - Total Repaid Amount: Amounts repaid by borrowers to date.
+   - Total Amount Due: Outstanding amounts yet to be repaid.
+   - Average Interest Rate: Insights into the cost of borrowing.
+   - Number of Active Loans: Loans currently active and not fully repaid.
+2. **Regional Distribution of Loans**: Breakdown of loans across different geographical regions.
+3. **Top Borrowing Countries**: Countries with the highest loan amounts.
+4. **Loan Distribution by Sector**: Allocation of loans across various sectors.
+5. **Loan Type and Status Analysis**: Analysis of loan types and their current status.
+
+### IDA Credit and Grants
+1. **Credit Risk Exposure**: Analysis of exposure across different regions and borrowers.
+2. **Time Series of Credit Amounts**: Insights into the trends of credit issuance and repayment over time.
+3. **Principal Amount by Borrowers**: Highlights of top borrowers and their principal amounts.
+4. **Global Distribution Map**: Visualization of amounts due and other relevant metrics.
+5. **Credit Utilization Ratio**: Assessment of how effectively credit is utilized.
+6. **Repayment Efficiency**: Evaluation of how efficiently borrowers repay their loans.
+
+
+
+## **Visual Insights**
+
+### IBRD Loans
+1. **Total Principal Amount vs. Disbursed Amount**: Bar chart comparing original loan amounts with disbursed amounts.
+2. **Regional Distribution of Loans**: Pie chart showing loan distribution across regions.
+3. **Top Borrowing Countries**: Bar chart highlighting countries with the highest loan amounts.
+4. **Loan Distribution by Sector**: Pie chart indicating loan allocation by sector.
+5. **Interest Rate Analysis**: Line chart depicting average interest rates over time.
+
+### IDA Credit and Grants
+1. **Credit Risk Exposure**: Bar chart or heatmap showing exposure across regions.
+2. **Time Series of Credit Amounts**: Line chart illustrating trends over time.
+3. **Principal Amount by Borrowers**: Bar chart highlighting top borrowers.
+4. **Global Distribution Map**: Map visualizing the global distribution of amounts due.
+5. **Credit Utilization Ratio**: Bar chart showing the utilization ratio by borrower or region.
+6. **Repayment Efficiency**: Line chart or bar chart evaluating repayment patterns.
+
 
 ## Visualizations
 ![Summary Dashboard Screenshot](https://github.com/Shushankit007/World-Bank-IBRD-Loan-Analysis-using-Excel/blob/main/Overview%20Dashboard.png)
@@ -62,6 +100,5 @@ The World Bank IBRD Loans Analysis project aims to provide a comprehensive overv
 - https://data.worldbank.org/
 - https://finances.worldbank.org/ (open finance data of world bank)
   
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
+For more details about the datasets, refer to the `Data_Dictionary_IBRD_and_IDA_Dataset_Details.pdf` file.
