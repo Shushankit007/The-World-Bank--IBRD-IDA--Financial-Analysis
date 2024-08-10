@@ -1,4 +1,4 @@
-# **The World Bank(IBRD-IDA) Financial Analysis**
+# **World Bank(IBRD-IDA) Financial Analysis**
 
 ## **Project Overview**
 The World Bank IBRD and IDA financial Analysis project aims to provide a comprehensive overview of the loans and credits extended by the International Bank for Reconstruction and Development (IBRD) and the International Development Association (IDA). Leveraging Excel for data cleaning, validation, analysis, and visualization, this project focuses on understanding key metrics such as loan distribution, repayment performance, interest rates, and credit risk exposure. The analysis of this data seeks to uncover patterns and insights that can inform better decision-making and policy formulation at a global level.
