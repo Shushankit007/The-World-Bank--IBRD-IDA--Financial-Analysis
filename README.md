@@ -82,12 +82,14 @@ The World Bank IBRD and IDA financial Analysis project aims to provide a compreh
 
 
 ## Visualizations
-![Summary Dashboard Screenshot](https://github.com/Shushankit007/World-Bank-IBRD-Loan-Analysis-using-Excel/blob/main/Overview%20Dashboard.png)
-![Overview Dashboard Screenshot](https://github.com/Shushankit007/World-Bank-IBRD-Loan-Analysis-using-Excel/blob/main/Overview%20Dashboard.png)
+![Summary Dashboard Screenshot](https://github.com/Shushankit007/The-World-Bank--IBRD-IDA--Financial-Analysis/blob/main/Summary%20Dashboard.png)
+![Overview Dashboard Screenshot](https://github.com/Shushankit007/The-World-Bank--IBRD-IDA--Financial-Analysis/blob/main/Overview%20Dashboard.png)
+![IDA Dashboard Screenshot](https://github.com/Shushankit007/The-World-Bank--IBRD-IDA--Financial-Analysis/blob/main/IDA%20Dashboard%20Screenshot.png)
+
 
 
 ## Usage
-1. Open the `World_Bank_IBRD_Loans_Analysis.xlsx` file in Microsoft Excel.
+1. Open the `World_Bank_IBRD Project.xlsx` and `World_Bank(IDA) Project.xlsx`file in Microsoft Excel.
 2. Navigate through the various sheets to explore the data cleaning, analysis, and visualizations.
 3. Interact with the pivot tables and charts to gain insights from the data.
 4. For more details about dataset refer this file `Data_Dictionary IBRD and IDA Dataset Details.pdf`
@@ -96,5 +98,3 @@ The World Bank IBRD and IDA financial Analysis project aims to provide a compreh
 - https://data.worldbank.org/
 - https://finances.worldbank.org/ (open finance data of world bank)
   
-
-For more details about the datasets, refer to the `Data_Dictionary_IBRD_and_IDA_Dataset_Details.pdf` file.
