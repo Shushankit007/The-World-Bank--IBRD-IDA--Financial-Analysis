@@ -4,7 +4,6 @@
 The World Bank IBRD and IDA financial Analysis project aims to provide a comprehensive overview of the loans extended by the International Bank for Reconstruction and Development (IBRD) and the International Development Association (IDA). Leveraging Excel for data cleaning, validation, analysis, and visualization, this project focuses on understanding key metrics such as loan distribution, repayment performance, interest rates, and credit risk exposure. The analysis of this data seeks to uncover patterns and insights that can inform better decision-making and policy formulation at a global level.
 
 ## **Objectives:**
-
 ### IBRD Loans Analysis
 1. **Data Cleaning and Validation**: Ensure the IBRD dataset is accurate, complete, and formatted correctly for analysis.
 2. **Key Performance Indicators (KPIs)**: Identify and calculate essential KPIs related to loan amounts, disbursements, repayments, and interest rates.
@@ -21,7 +20,6 @@ The World Bank IBRD and IDA financial Analysis project aims to provide a compreh
 
 
 ## **Methodology**
-
 ### IBRD Data Cleaning and Validation
 - **End of Period**: Cleaned using text-to-column function and changed its data type.
 - **Borrower**: Filled missing values with "unavailable data."
@@ -42,7 +40,6 @@ The World Bank IBRD and IDA financial Analysis project aims to provide a compreh
 
 
 ## **Key Insights**
-
 ### IBRD Loans
 1. **Performance Indicators**
    - Total Principal Amount: Comprehensive view of the original loan amounts.
@@ -68,7 +65,6 @@ The World Bank IBRD and IDA financial Analysis project aims to provide a compreh
 
 
 ## **Visual Insights**
-
 ### IBRD Loans
 1. **Total Principal Amount vs. Disbursed Amount**: Bar chart comparing original loan amounts with disbursed amounts.
 2. **Regional Distribution of Loans**: Pie chart showing loan distribution across regions.
