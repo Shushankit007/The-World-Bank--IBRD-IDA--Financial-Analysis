@@ -1,7 +1,7 @@
 # **World Bank(IBRD-IDA) Financial Analysis**
 
 ## **Project Overview**
-The World Bank IBRD and IDA financial Analysis project aims to provide a comprehensive overview of the loans and credits extended by the International Bank for Reconstruction and Development (IBRD) and the International Development Association (IDA). Leveraging Excel for data cleaning, validation, analysis, and visualization, this project focuses on understanding key metrics such as loan distribution, repayment performance, interest rates, and credit risk exposure. The analysis of this data seeks to uncover patterns and insights that can inform better decision-making and policy formulation at a global level.
+The World Bank IBRD and IDA Financial Analysis project offers a comprehensive examination of the loans, credits, net flows, and commitments extended by the International Bank for Reconstruction and Development (IBRD) and the International Development Association (IDA) from 2010 to 2025. Utilizing Excel for data cleaning and analysis, and Tableau for visualization, the project focuses on key financial metrics such as loan distribution, repayment performance, interest rates, and credit risk exposure. The inclusion of net flows and commitments analysis provides additional insights into the allocation and management of financial resources, supporting informed decision-making and policy formulation at a global level.
 
 ## **Objectives:**
 ### IBRD Loans Analysis
@@ -17,6 +17,13 @@ The World Bank IBRD and IDA financial Analysis project aims to provide a compreh
 3. **Principal Amount by Borrowers**: Identify the top borrowers and their associated principal amounts.
 4. **Global Distribution**: Map the global distribution of amounts due and other relevant metrics.
 5. **Credit Portfolio Analysis**: Evaluate the credit utilization ratio, repayment efficiency, and other critical metrics.
+
+### IBRD-IDA Net Flows and Commitments Analysis
+1. **Data Aggregation and Preparation**: Combine and prepare data from IBRD and IDA to analyze net flows and commitments from 2010 to 2025.
+2. **Trend Analysis**: Examine trends in net financial flows over the years to identify patterns and significant changes in allocation.
+3. **Commitment Types and Distribution**: Analyze the distribution of commitments across different types and sectors, highlighting key areas of investment.
+4. **Geographical Mapping**: Visualize the global distribution of net flows and commitments using interactive maps to identify regional focus areas.
+5. **Comparative Analysis**: Compare net flows and commitments between different regions, countries, and time periods to understand the impact of financial activities.   
 
 
 ## **Methodology**
@@ -37,6 +44,12 @@ The World Bank IBRD and IDA financial Analysis project aims to provide a compreh
 - **Date Column Cleaning**: Standardized the format across all date columns.
 - **Currency Conversion**: Standardized all amounts to a single currency where applicable.
 - **Amount Columns**: Filled missing values and converted them to the appropriate data type.
+
+### IBRD-IDA Net Flows and Commitments Data Cleaning and Validation
+- **Data Connection**: Connected to the World Bank OData service to access the latest net flows and commitments data.
+- **Date Formatting**: Standardized all date columns to dd-mm-yyyy format.
+- **Currency Standardization**: Ensured all financial amounts were in a consistent currency (USD).
+- **Data Aggregation**: Combined IBRD and IDA data for comprehensive analysis.
 
 
 ## **Key Insights**
@@ -79,6 +92,14 @@ The World Bank IBRD and IDA financial Analysis project aims to provide a compreh
 4. **Global Distribution Map**: Map visualizing the global distribution of amounts due.
 5. **Credit Utilization Ratio**: Bar chart showing the utilization ratio by borrower or region.
 6. **Repayment Efficiency**: Line chart or bar chart evaluating repayment patterns.
+
+## Tableau Dashboard - Net Flows and Commitments Analysis (2010-2025):
+This interactive Tableau dashboard is dedicated to analyzing the net flows and commitments of the World Bank Group from 2010 to 2025. It offers a focused examination of financial activities through various visualizations, providing key insights into the following areas:
+- **Geographical Distribution:** A dynamic map visualizes the distribution of net flows and commitments across different regions and countries, highlighting where the World Bank Group's financial resources are being allocated.
+- **Commitment Types:** A bar chart categorizes commitments by type, offering a clear breakdown of how funds are committed across different sectors or projects.
+- **Net Flows Over Time:** A time-series analysis is presented to track net financial flows year by year, allowing users to observe trends and fluctuations from 2010 to 2025.
+- **Commitment Breakdown:** A pie chart provides a visual summary of the various commitment categories, giving users a quick overview of the proportionate distribution of funds.
+- **Interactive Exploration:** Users can interact with the dashboard by filtering data by region, country, or year, enabling a tailored analysis that aligns with specific areas of interest.
 
 
 ## Visualizations
