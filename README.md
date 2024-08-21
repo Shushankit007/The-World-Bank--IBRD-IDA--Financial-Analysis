@@ -19,12 +19,11 @@ The World Bank IBRD and IDA Financial Analysis project offers a comprehensive ex
 5. **Credit Portfolio Analysis**: Evaluate the credit utilization ratio, repayment efficiency, and other critical metrics.
 
 ### IBRD-IDA Net Flows and Commitments Analysis
-1. **Data Aggregation and Preparation**: Combine and prepare data from IBRD and IDA to analyze net flows and commitments from 2010 to 2025.
-2. **Trend Analysis**: Examine trends in net financial flows over the years to identify patterns and significant changes in allocation.
-3. **Commitment Types and Distribution**: Analyze the distribution of commitments across different types and sectors, highlighting key areas of investment.
-4. **Geographical Mapping**: Visualize the global distribution of net flows and commitments using interactive maps to identify regional focus areas.
-5. **Comparative Analysis**: Compare net flows and commitments between different regions, countries, and time periods to understand the impact of financial activities.   
-
+- **Data Aggregation**: Combine IBRD and IDA data to analyze net flows and commitments from 2010 to 2025.
+- **Trend Analysis**: Identify patterns and changes in net financial flows over time.
+- **Commitment Distribution**: Analyze commitments by type and sector.
+- **Geographical Mapping**: Visualize global distribution of net flows and commitments.
+- **Comparative Analysis**: Compare financial activities across regions and time periods.
 
 ## **Methodology**
 ### IBRD Data Cleaning and Validation
