@@ -103,10 +103,10 @@ This interactive Tableau dashboard is dedicated to analyzing the net flows and c
 
 
 ## Visualizations
-![Summary Dashboard Screenshot](https://github.com/Shushankit007/The-World-Bank--IBRD-IDA--Financial-Analysis/blob/main/Summary%20Dashboard.png)
-![Overview Dashboard Screenshot](https://github.com/Shushankit007/The-World-Bank--IBRD-IDA--Financial-Analysis/blob/main/Overview%20Dashboard.png)
+![IBRD Summary Dashboard Screenshot](https://github.com/Shushankit007/The-World-Bank--IBRD-IDA--Financial-Analysis/blob/main/Summary%20Dashboard.png)
+![IBRD Overview Dashboard Screenshot](https://github.com/Shushankit007/The-World-Bank--IBRD-IDA--Financial-Analysis/blob/main/Overview%20Dashboard.png)
 ![IDA Dashboard Screenshot](https://github.com/Shushankit007/The-World-Bank--IBRD-IDA--Financial-Analysis/blob/main/IDA%20Dashboard%20Screenshot.png)
-
+![IBRD-IDA Net Flows and Commitments Dashboard Screenshot](https://github.com/Shushankit007/World-Bank--IBRD-IDA--Financial-Analysis/blob/main/IBRD_IDA%20Dashboard(Tableau).png)
 
 
 ## Usage
@@ -114,6 +114,7 @@ This interactive Tableau dashboard is dedicated to analyzing the net flows and c
 2. Navigate through the various sheets to explore the data cleaning, analysis, and visualizations.
 3. Interact with the pivot tables and charts to gain insights from the data.
 4. For more details about dataset refer this file `Data_Dictionary IBRD and IDA Dataset Details.pdf`
+5. Visit Tableau Public: (https://public.tableau.com/views/Book1_17236680299730/Dashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ## Reference
 - https://data.worldbank.org/
