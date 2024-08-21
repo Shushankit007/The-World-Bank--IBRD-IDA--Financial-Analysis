@@ -114,7 +114,8 @@ This interactive Tableau dashboard is dedicated to analyzing the net flows and c
 2. Navigate through the various sheets to explore the data cleaning, analysis, and visualizations.
 3. Interact with the pivot tables and charts to gain insights from the data.
 4. For more details about dataset refer this file `Data_Dictionary IBRD and IDA Dataset Details.pdf`
-5. Visit Tableau Public: (https://public.tableau.com/views/Book1_17236680299730/Dashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+5. Open `NetFlow&Commitments Analysis.twb` in Tableau
+6. Visit Tableau Public: (https://public.tableau.com/views/Book1_17236680299730/Dashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ## Reference
 - https://data.worldbank.org/
