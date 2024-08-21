@@ -94,12 +94,11 @@ The World Bank IBRD and IDA Financial Analysis project offers a comprehensive ex
 
 ## Tableau Dashboard - Net Flows and Commitments Analysis (2010-2025):
 This interactive Tableau dashboard is dedicated to analyzing the net flows and commitments of the World Bank Group from 2010 to 2025. It offers a focused examination of financial activities through various visualizations, providing key insights into the following areas:
-- **Geographical Distribution:** A dynamic map visualizes the distribution of net flows and commitments across different regions and countries, highlighting where the World Bank Group's financial resources are being allocated.
-- **Commitment Types:** A bar chart categorizes commitments by type, offering a clear breakdown of how funds are committed across different sectors or projects.
-- **Net Flows Over Time:** A time-series analysis is presented to track net financial flows year by year, allowing users to observe trends and fluctuations from 2010 to 2025.
-- **Commitment Breakdown:** A pie chart provides a visual summary of the various commitment categories, giving users a quick overview of the proportionate distribution of funds.
-- **Interactive Exploration:** Users can interact with the dashboard by filtering data by region, country, or year, enabling a tailored analysis that aligns with specific areas of interest.
-
+- **Geographical Distribution:** Map showing net flows and commitments across regions and countries.
+- **Commitment Types:** Bar chart detailing funds by type and sector.
+- **Net Flows Over Time:** Time-series analysis of financial flows from 2010 to 2025.
+- **Commitment Breakdown:** Pie chart summarizing commitment categories.
+- **Interactive Exploration:** Filters for region, country, and year to customize analysis.
 
 ## Visualizations
 ![IBRD Summary Dashboard Screenshot](https://github.com/Shushankit007/The-World-Bank--IBRD-IDA--Financial-Analysis/blob/main/Summary%20Dashboard.png)
